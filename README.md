@@ -485,9 +485,9 @@ If you use this project in your research or work, please cite:
 ```bibtex
 @software{macos_diffusion_lab,
   title = {macOS Diffusion Lab: Local Diffusion Model Experimentation},
-  author = {Your Name},
+  author = {Rachit Goyal},
   year = {2026},
-  url = {https://github.com/yourusername/macos-diffusion-lab}
+  url = {https://github.com/rachitgoyal14/macos-diffusion-lab}
 }
 ```
 
