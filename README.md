@@ -50,8 +50,6 @@ This repository serves as an experimental playground for running various diffusi
 - Custom model training pipelines
 - Batch processing workflows
 
-Want to contribute? Check the [Contributing](#contributing) section below!
-
 ## Requirements
 
 ### Hardware
