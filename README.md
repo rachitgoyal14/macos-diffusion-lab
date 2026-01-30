@@ -8,34 +8,34 @@ A local experimentation environment for running and testing various diffusion mo
 
 This repository serves as an experimental playground for running various diffusion models locally on macOS. The goal is to test, benchmark, and optimize different models (SD 1.5, SDXL, SD 2.x, custom fine-tunes) with a focus on:
 
-- 🧪 **Model Experimentation**: Easy swapping between different diffusion models
-- 🍎 **macOS Optimization**: Leveraging MPS for Apple Silicon performance
-- 🔒 **Privacy**: Everything runs locally, no data leaves your machine
-- ⚡ **Performance Tuning**: Testing various optimization techniques
-- 🔧 **Developer-Friendly**: Clean API for integration into other projects
+- **Model Experimentation**: Easy swapping between different diffusion models
+- **macOS Optimization**: Leveraging MPS for Apple Silicon performance
+- **Privacy**: Everything runs locally, no data leaves your machine
+- **Performance Tuning**: Testing various optimization techniques
+- **Developer-Friendly**: Clean API for integration into other projects
 
 **Current Status**: Production-ready with SD 1.5. SDXL, SD 2.1, and ControlNet support coming soon.
 
 ## Features
 
-- 🚀 **MPS Acceleration**: Optimized for Apple Silicon (M1/M2/M3/M4) using Metal Performance Shaders
-- 🎨 **Multiple Workflows**: txt2img, img2img, and inpaint capabilities
-- 🔄 **Model Flexibility**: Easy configuration to swap between different models
-- 💾 **Smart Loading**: Lazy-loaded pipelines to conserve memory
-- 🔧 **FP16 Optimization**: Half-precision for faster inference and reduced memory
-- 📊 **Benchmarking Ready**: Built-in structure for performance testing
-- 🌐 **REST API**: FastAPI endpoints for easy integration
-- 📁 **Organized Outputs**: Automatic file management and versioning
+- **MPS Acceleration**: Optimized for Apple Silicon (M1/M2/M3/M4) using Metal Performance Shaders
+- **Multiple Workflows**: txt2img, img2img, and inpaint capabilities
+- **Model Flexibility**: Easy configuration to swap between different models
+- **Smart Loading**: Lazy-loaded pipelines to conserve memory
+- **FP16 Optimization**: Half-precision for faster inference and reduced memory
+- **Benchmarking Ready**: Built-in structure for performance testing
+- **REST API**: FastAPI endpoints for easy integration
+- **Organized Outputs**: Automatic file management and versioning
 
 ## Supported Models & Roadmap
 
-### ✅ Currently Supported
+### Currently Supported
 - **Stable Diffusion 1.5** (stable-diffusion-v1-5/stable-diffusion-v1-5)
   - Text-to-image
   - Image-to-image
   - Inpainting
 
-### 🚧 Coming Soon
+### Coming Soon
 - **SDXL 1.0** - Higher quality, 1024x1024 output (requires 16GB+ RAM)
 - **Stable Diffusion 2.1** - Improved prompt understanding
 - **ControlNet** - Guided generation with edge detection, pose, depth
@@ -426,14 +426,6 @@ logs/
 htmlcov/
 ```
 
-## Safety and Ethical Use
-
-- This setup **disables the safety checker** for local use
-- Be responsible with generated content
-- Respect copyright and usage rights
-- Don't generate harmful or illegal content
-- Consider re-enabling safety checker for shared deployments
-
 ## Resources & Learning
 
 - [Diffusers Documentation](https://huggingface.co/docs/diffusers/) - Official library docs
@@ -450,49 +442,6 @@ This project is built on the shoulders of giants and inspired by the amazing ope
 - **Stability AI** for Stable Diffusion models
 - **Hugging Face** for the Diffusers library and model hosting
 - **Apple's [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)** - Apple's Core ML optimizations for Stable Diffusion on Apple Silicon provided valuable insights for MPS acceleration techniques
-- **[Original Inspiration Repository]** - This project was forked/inspired by [REPO_LINK_HERE] for initial experimentation
 - The broader **open-source AI community** for pushing the boundaries of what's possible
 
 Special thanks to everyone contributing models, techniques, and knowledge to make local AI accessible to all.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Model Licenses:**
-- Stable Diffusion 1.5: [CreativeML Open RAIL-M](https://huggingface.co/spaces/CompVis/stable-diffusion-license)
-- SDXL: [CreativeML Open RAIL++-M](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md)
-
-Always respect the license terms of models you use.
-
-## Support & Community
-
-- 🐛 **Found a bug?** [Open an issue](../../issues)
-- 💡 **Have an idea?** [Start a discussion](../../discussions)
-- 📊 **Want to share benchmarks?** Post your hardware specs and results in discussions
-- ⭐ **Like this project?** Give it a star!
-- 🤝 **Want to contribute?** Fork the repo and submit a PR
-
-For questions about:
-- **PyTorch/MPS**: [PyTorch Forums](https://discuss.pytorch.org/)
-- **Diffusers**: [Hugging Face Forums](https://discuss.huggingface.co/)
-- **Apple's Core ML approach**: [ml-stable-diffusion repo](https://github.com/apple/ml-stable-diffusion)
-
-## Citation
-
-If you use this project in your research or work, please cite:
-
-```bibtex
-@software{macos_diffusion_lab,
-  title = {macOS Diffusion Lab: Local Diffusion Model Experimentation},
-  author = {Rachit Goyal},
-  year = {2026},
-  url = {https://github.com/rachitgoyal14/macos-diffusion-lab}
-}
-```
-
----
-
-**Built with ❤️ for local, private, and experimental AI image generation on macOS**
-
-*Made by the community, for the community. Happy experimenting! 🧪🎨*# macos-diffusion-lab
